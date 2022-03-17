@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 class Game
 {
     static void Main(string[] args)
@@ -37,4 +37,4 @@ class Game
             }
         }
     }
-}*/
+}
