@@ -1,7 +1,6 @@
-﻿//Playing with Console App
-
-//using System;
-/*public class Program
+//Playing with Console App
+using System;
+public class Program
 {
 public static void Main()
     {
@@ -14,4 +13,4 @@ public static void Main()
         Console.WriteLine("Your superhero name is ", color, sign, number);
 
     }
-        }*/
+        }
