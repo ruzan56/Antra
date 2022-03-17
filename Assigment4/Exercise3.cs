@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 
 public class Exercise3
 {
@@ -22,4 +22,4 @@ public class Exercise3
         }
         Console.WriteLine();
     }
-}*/
+}
