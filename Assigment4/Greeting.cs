@@ -1,4 +1,4 @@
-﻿/*	using System;
+	using System;
 	public class Greeting
 	{
 	
@@ -42,4 +42,3 @@
 			Console.WriteLine("Right now it is {0}:{1} o'clock.", currentDateTime.Hour, currentDateTime.Minute);
 		}
 	}
-*/
