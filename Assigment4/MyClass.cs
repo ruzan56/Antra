@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 
 public class Myclass
 {
@@ -26,4 +26,4 @@ public class Myclass
         Console.Write(microseconds + " microseconds = ");
         Console.Write(nanoseconds + " nanoseconds ");
     }
-}*/
+}
