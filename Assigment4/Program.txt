@@ -1,0 +1,82 @@
+﻿1.What type would you choose for the following “numbers”?
+A person’s telephone number -  string 
+A person’s height-            double 
+A person’s age-                int 
+
+A person’s gender (Male, Female, Prefer Not To Answer)-   enum 
+ A person’s salary - decimal
+ A book’s ISBN - string
+ A book’s price- decimal
+A book’s shipping weight- double
+A country’s population- long
+The number of stars in the universe- ulong 
+The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business)-ushort 
+
+2.What are the difference between value type and reference type variables? What is boxing and unboxing?
+
+In value type variable directly contains data value within its own memory space.Unlike value types, a reference type doesn't store its value directly.
+Instead, it stores the address where the value is being stored.
+In other words, a reference type contains a pointer to another memory location that holds the data.
+Boxing is an implicit conversion of a value type to the type object or to any interface type implemented
+by value type
+//Ex.
+//int i = 123;
+//object o = i;
+Unhoxing - Unboxing is an explicit conversion
+from the type object to a value type or from an interface type
+to a value type that implements the interface.
+//Ex.
+//int k = 123; //value type
+//object h = k; //boxing
+//int j = (int)h;//unboxing
+
+3.What is meant by the terms managed resource and unmanaged resource in .NET
+
+Managed resources basically mean anything managed by the CLR (example: any of your managed objects).
+Unmanaged resources typically mean native resources that are created and lifetime managed outside the CLR
+
+4.Whats the purpose of Garbage Collector in .NET?
+
+manages the allocation and release of memory for  application
+
+
+
+Controlling Flow and Converting Types Test your Knowledge
+
+1.What happens when you divide an int variable by 0?
+Throws DivideByZeroException
+2.What happens when you divide a double variable by 0?
+The result of arithmetic operations with those types can be one of special values that represent infinity and not-a-number:
+3.What happens when you overflow an int variable, that is, set it to a value beyond its range?
+In a checked context, if overflow happens in a constant expression, a compile-time error occurs.
+Otherwise, when the operation is performed at run time, an OverflowException is thrown.
+In an unchecked context, the result is truncated by discarding any high-order bits that don't fit in the destination type.
+4.What is the difference between x = y++; and x = ++y;?
+The result of x++ is the value of x before the operation
+The result of ++x is the value of x after the operation
+5.What is the difference between break, continue, and return when used inside a loop statement?
+The break statement: terminates the closest enclosing iteration statement or switch statement.
+The continue statement: starts a new iteration of the closest enclosing iteration statement.
+The return statement: terminates execution of the function in which it appears and returns control to the caller.Jan
+6.What are the three parts of a for statement and which of them are required?
+It requires 3 parts: the initialization (loop variant), the condition,
+and the advancement to the next iteration.
+7.What is the difference between the = and == operators?
+= assigs value
+==compares values 
+8.Does the following statement compile? for ( ; true; ) ;
+the code will create a for that will check if true is true creating an infinite loop.
+9.What does the underscore _ represent in a switch expression?
+replaces the default keyword to signify that it should match anything if reached.
+10.What interface must an object implement to be enumerated over by using the foreach statement?
+The IEnumerable interface
+
+
+
+What will happen if this code executes?
+
+int max =500;for(byte i =0; i < max; i++){WriteLine(i);}
+
+We will have error as there is no writeline, we need to use console.writeline.
+If we even fix that loop will go infinity as int max is not the same as byte max
+
