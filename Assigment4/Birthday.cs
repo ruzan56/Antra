@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 public class Birthday
 {
     public static void Main(string[] args)
@@ -16,4 +16,4 @@ public class Birthday
         Console.ReadLine();
 
     }
-}*/
+}
